@@ -12,6 +12,7 @@ Vue.config.productionTip = false
 import goods from './components/goods/goods'
 import ratings from './components/ratings/ratings'
 import seller from './components/seller/seller'
+import 'common/stylus/index.styl';
 
 const routes=[
   {path:"/goods",component:goods},

@@ -21,7 +21,6 @@ export default {
   },
   created(){
     this.$http.get('/api/seller').then(response => {
-      console.log(response.body);
       if(response.body.err===ERR_OK){
         this.seller=response.body.data
       }
