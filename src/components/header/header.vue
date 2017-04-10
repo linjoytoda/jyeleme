@@ -1,9 +1,39 @@
 <template>
-    <div>this is header</div>
+    <div class="header">
+        <div class="content-wrapper">
+            <div class="avatar">
+                <img :src="seller.avatar" width="64" height="64">
+            </div>
+            <div class="content">
+                <div class="title">
+                    <span class="brand"></span>
+                    <span class="name">{{seller.name}}</span>
+                </div>
+                <div class="description">
+                    {{seller.description}}/{{seller.deliveryTime}}
+                </div>
+            </div>
+        </div>         
+        <div class="bulletin-wrapper"></div>
+    </div>
 </template>
+
 <script>
-    export default{}
+    export default {
+        props:{
+            seller:{
+                type:Object
+            }
+        },
+        data(){
+            return {
+                
+            }
+        }
+    }
 </script>
+
+
 <style>
 
 </style>
