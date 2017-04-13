@@ -2,9 +2,12 @@
     <i class="icon-arrow_lift"></i>
 </template>
 <script>
-    export default{}
+    export default{
+        
+    }
 </script>
 
-<style>
+<style lang="stylus" rel="stylesheet/stylus">
+    
         
 </style>
