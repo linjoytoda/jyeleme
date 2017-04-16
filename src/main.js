@@ -15,6 +15,7 @@ import seller from './components/seller/seller'
 import 'common/stylus/index.styl';
 
 const routes=[
+  {path:"/",component:goods},
   {path:"/goods",component:goods},
   {path:"/ratings",component:ratings},
   {path:"/seller",component:seller}

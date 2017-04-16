@@ -134,13 +134,14 @@
                         line-height:18px
                         font-weight:bold
                 .description
-                    margin-bottom:10px;
-                    line-height:12px;
-                    font-size:12px;
+                    margin-bottom:10px
+                    line-height:12px
+                    font-size:12px
                 .supports
+                    font-size:0
                     .icon
-                        display:inline-block
                         vertical-align:top
+                        display:inline-block
                         width:12px
                         height:12px
                         margin-right:4px
@@ -158,7 +159,7 @@
                             bg-image('special_1')
                     .text
                         font-size:10px
-                        line-height:12px;
+                        line-height:14px
             .support-count
                 position: absolute
                 right: 12px
@@ -187,7 +188,7 @@
             position:relative
             background:rgba(7,17,27,0.2)
             .bulletin-title
-                margin-top:8px
+                margin-top:7px
                 vertical-align:top
                 display:inline-block
                 width:22px
@@ -196,14 +197,14 @@
                 background-size:22px 12px
                 background-repeat:no-repeat
             .bulletin-text
-                vertical-align:top
+                vertical-align:middle
                 margin:0 4px
                 font-size:10px
             .icon-keyboard_arrow_right
                 position:absolute
                 font-size:10px
                 right:12px
-                top:9px
+                top:8px
 
         .background
             position:absolute
