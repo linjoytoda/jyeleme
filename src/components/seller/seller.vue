@@ -4,6 +4,6 @@
 <script>
     export default{}
 </script>
-<style scoped>
+<style lang="stylus" >
     
 </style>
