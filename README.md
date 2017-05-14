@@ -26,6 +26,6 @@ vue + vue-cli + vue-resource + webpack + stylus + ES6(babel)
 
 1.没有使用vuex，组件间的事件传递让人困惑，尤其在cartcontrol向shopcart再向goods组件连续传递时，代码显得太过冗余
 
-2.模块化程度欠佳，
+2.模块化程度欠佳，还有至少两部分可以模块化
 
 
